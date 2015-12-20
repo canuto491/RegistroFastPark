@@ -7,7 +7,7 @@
 
 body {
   background: #f2f2f2;
-  font-family: "Roboto";
+  font-family: "Open Sans";
   border-top: 30px solid #303F9F; }
 
 .wrap {
@@ -31,7 +31,7 @@ body {
       .contenedor-formulario .formulario .input-group input[type="text"],
       .contenedor-formulario .formulario .input-group input[type="email"],
       .contenedor-formulario .formulario .input-group input[type="password"] {
-        font-family: "Roboto";
+        font-family: "Open Sans";
         font-size: 16px;
         color: #303F9F;
         width: 100%;
@@ -127,7 +127,7 @@ body {
       color: #fff;
       cursor: pointer;
       display: inline-block;
-      font-family: "Roboto";
+      font-family: "Open Sans";
       font-size: 16px;
       padding: 15px;
       width: 100%;
