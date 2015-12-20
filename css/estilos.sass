@@ -1,11 +1,11 @@
-$primary: #303F9F
-$light-primary: #BBDEFB
+$primary: #0D47A1
+$light-primary: #0288D1
 $white: #f2f2f2
-$divider: #B6B6B6
-$error: #D32F2F
+$divider: #1E88E5
+$error: #c62828
 
 $borde: 2px
-$font-family: "Open Sans"
+$font-family: "Open Sans", Arial
 
 *
 	margin: 0
@@ -17,12 +17,12 @@ $font-family: "Open Sans"
 body
 	background: $white
 	font-family: $font-family
-	border-top: 30px solid $primary
+	border-top: 30px solid $primary /* esta es la linea de la parte superior*/
 
 .wrap
-	width: 90%
-	max-width: 500px
-	padding: 40px
+	width: 95%
+	max-width: 400px
+	padding: 20px
 	margin: auto
 	background: #fff
 	box-shadow: 0px 0px 3px grey
@@ -30,7 +30,7 @@ body
 .contenedor-formulario
 	width: 100%
 	color: $white
-	padding: 50px
+	padding: 15px
 	.formulario
 		width: 100%
 		margin: auto
@@ -42,11 +42,11 @@ body
 			input[type="email"],
 			input[type="password"],
 				font-family: $font-family
-				font-size: 16px
+				font-size: 14px
 				color: $primary
 				width: 100%
 				outline: none
-				padding: 15px
+				padding: 12px
 				background: none
 				border: none
 				border-bottom: $borde solid $light-primary
@@ -64,11 +64,11 @@ body
 					-webkit-transition: all .3s ease
 					-o-transition: all .3s ease
 					transition: all .3s ease
-					margin-left: 15px
-					font-size: 16px
-					line-height: 16px
+					margin-left: 14px
+					font-size: 14px
+					line-height: 14px
 					position: absolute
-					top: 16px
+					top: 22px
 					left: 0
 					&.active
 						top: -12px
@@ -136,7 +136,7 @@ body
 			cursor: pointer
 			display: inline-block
 			font-family: $font-family
-			font-size: 16px
+			font-size: 14px
 			padding: 15px
 			width: 100%
 			-webkit-transition: all .3s ease
